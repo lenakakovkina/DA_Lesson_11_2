@@ -24,7 +24,7 @@ while (true)
     }
     catch (FormatException)
     {
-    Console.WriteLine($"Error occurs! As mark only interger number could be entered. Update!!!");
+    Console.WriteLine($"Error occurs! As mark only interger number could be entered");
         continue;
     }
     minMark = marks.Min();
